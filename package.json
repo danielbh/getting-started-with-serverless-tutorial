@@ -1,0 +1,14 @@
+{
+  "name": "getting-started-with-serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-offline": "^3.15.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "static:deploy": "./scripts/deploy_static_files.sh",
+    "static:destroy": "./scripts/deploy_static_files.sh"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Serverless</title>
+    <script>
+      const xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+          document.getElementById("app").innerHTML = this.responseText
+        }
+      };
+      xhttp.open("GET", "http://localhost:3000", true);
+      xhttp.send();
+    </script>
+
+</head>
+<body>
+<h1 id="app"></h1>
+</body>
+</html>
