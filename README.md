@@ -1,0 +1,1 @@
+Project files for [Getting Started with Serverless](https://www.danielhollcraft.com/blog/deploy-aws-lambda-function-serverless/) tutorial at [danielhollcraft.com](https://danielhollcraft.com).
